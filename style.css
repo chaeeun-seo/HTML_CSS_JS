@@ -1,0 +1,26 @@
+* {
+  user-select: none; /* 사용자가 텍스트를 선택할 수 있는지 지정 : 이 요소와 아래 요소를 선택하지 못하도록 막는다. */
+  -ms-user-select: none;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* sets the color of the highlight that appears over a link while it's being tapped */
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
